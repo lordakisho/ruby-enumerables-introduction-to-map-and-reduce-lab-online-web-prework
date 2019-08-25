@@ -63,7 +63,7 @@ end
 def reduce_to_any_true(source_array)
   counter = 0 
 while counter < source_array.size do
-  return true if (condition) (I have found a truthy value)
+  return true if source_array[counter] == true
   counter +=1 
 end
 return false
