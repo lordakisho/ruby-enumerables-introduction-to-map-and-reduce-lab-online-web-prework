@@ -54,8 +54,17 @@ end
 def reduce_to_all_true(source_array)
   counter = 0 
 while counter < source_array.size do
-  return false if source_array[counter] = false
+  return false if (condition)
   counter +=1 
 end
+return true
+end
 
+def reduce_to_all_true(source_array)
+  counter = 0 
+while counter < source_array.size do
+  return false if (condition)
+  counter +=1 
+end
+return true
 end
