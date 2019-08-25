@@ -54,17 +54,17 @@ end
 def reduce_to_all_true(source_array)
   counter = 0 
 while counter < source_array.size do
-  return false if (condition)
+  return false if source_array[counter] == false 
   counter +=1 
 end
 return true
 end
 
-def reduce_to_all_true(source_array)
+def reduce_to_any_true(source_array)
   counter = 0 
 while counter < source_array.size do
-  return false if (condition)
+  return true if (condition) (I have found a truthy value)
   counter +=1 
 end
-return true
+return false
 end
