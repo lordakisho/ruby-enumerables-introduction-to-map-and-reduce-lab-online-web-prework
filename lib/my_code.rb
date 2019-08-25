@@ -60,11 +60,11 @@ end
 return true
 end
 
-def reduce_to_any_true(source_array)
-  counter = 0 
-while counter < source_array.size do
-  return true if (condition) (I have found a truthy value)
-  counter +=1 
-end
-return false
-end
+# def reduce_to_any_true(source_array)
+#   counter = 0 
+# while counter < source_array.size do
+#   return true if (condition) (I have found a truthy value)
+#   counter +=1 
+# end
+# return false
+# end
