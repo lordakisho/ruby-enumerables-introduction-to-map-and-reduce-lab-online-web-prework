@@ -57,5 +57,5 @@ while counter < source_array.size do
   return false if source_array[counter] = false
   counter +=1 
 end
-return true 
+
 end
